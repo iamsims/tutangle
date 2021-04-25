@@ -290,12 +290,6 @@ a{
     vertical-align: top;
 }
 
-.entry{
-    width:100%;
-    height: 16.67%;
-    display: block;
-    border-bottom:1px solid #d8d8d8;
-}
 
 .head{
     border-bottom: 2px solid #2fc1da;
@@ -304,6 +298,7 @@ a{
 .textArea{
     height: 34.67px;
     width: 100%;
+    font-size: 30px;
 }
 
 .navArea{
@@ -318,8 +313,64 @@ a{
     display:inline-block;
     position: absolute ;
     top: 0px;
-    background-color:#f2f2f2;
     left: 0px;
+}
+
+.nav-separation .name{
+    height:36px;
+    width:100%
+}
+
+.AllEntries .name{
+    background-image: url("images/left-entriename.png");
+}
+
+.AllEntries .outer{
+    background-image: url("images/active-body-tab.png");
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.AllEntries .inner{
+    background-image: url("images/inactive-body-tab.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+
+.nav-separation .menu{
+    height:30px;
+    width:100%;
+    background-color:#f2f2f2;
+}
+
+.nav-separation .menu div{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top:1px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 11px;
+    
+}
+
+.Subscribed .inner{
+    background-image: url("images/inactive-body-tab.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.Subscribed .outer{
+    background-image: url("images/inactive-body-tab.png");
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
 }
 
 .Subscribed{
@@ -329,9 +380,26 @@ a{
     position: absolute ;
     top: 0px;
     left: 259px;
-    background-color: #f2f2f2;
 }
 
+.Subscribed .name{
+    background-image: url("images/right-entriename.png");
+}
+
+
+.entry{
+    width:100%;
+    height: 16.67%;
+    display: block;
+    border-bottom:1px solid #d8d8d8;
+}
+
+.entry-container{
+    width:100%;
+    height:100%;
+    display: block;
+    padding: 15px 0px;
+}
 
 .footer-wrapper{
     background-color:#727272;
