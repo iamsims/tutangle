@@ -25,7 +25,7 @@
 }
 
 .searchInput{
-	background: url("images/search-bar.png"); 
+	background: url("../images/search-bar.png"); 
 	width: 276px;
 	float: left;
 }
@@ -322,18 +322,18 @@ a{
 }
 
 .AllEntries .name{
-    background-image: url("images/left-entriename.png");
+    background-image: url("../images/left-entriename.png");
 }
 
 .AllEntries .outer{
-    background-image: url("images/active-body-tab.png");
+    background-image: url("../images/active-body-tab.png");
     color:white;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .AllEntries .inner{
-    background-image: url("images/inactive-body-tab.png");
+    background-image: url("../images/inactive-body-tab.png");
     background-repeat: no-repeat;
     background-position: center;
     color: black;
@@ -360,14 +360,14 @@ a{
 }
 
 .Subscribed .inner{
-    background-image: url("images/inactive-body-tab.png");
+    background-image: url("../images/inactive-body-tab.png");
     background-repeat: no-repeat;
     background-position: center;
     color: black;
 }
 
 .Subscribed .outer{
-    background-image: url("images/inactive-body-tab.png");
+    background-image: url("../images/inactive-body-tab.png");
     background-repeat: no-repeat;
     color: black;
     background-position: center;
@@ -383,7 +383,7 @@ a{
 }
 
 .Subscribed .name{
-    background-image: url("images/right-entriename.png");
+    background-image: url("../images/right-entriename.png");
 }
 
 
