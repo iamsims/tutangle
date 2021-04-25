@@ -389,7 +389,7 @@ a{
 
 .entry{
     width:100%;
-    height: 16.67%;
+    height: 100px;
     display: block;
     border-bottom:1px solid #d8d8d8;
 }
@@ -398,9 +398,73 @@ a{
     width:100%;
     height:100%;
     display: block;
-    padding: 15px 0px;
+    padding: 15px 0px 14px 0px;
 }
 
+
+.profile-pic{
+    width:70px;
+    height:100%;
+    float: left;
+}
+
+.entry-info{
+    width: 448px;
+    height: 100%;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.row0{
+    height:12px;
+    width:100%;
+    text-align: left;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight:600;
+
+}
+
+.row1{
+    height:14px;
+    width:100%;
+    text-align: left;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight:600;
+}
+
+.row2{
+    height:19px;
+    width:100%;
+    text-align: left;
+    line-height: 14px;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.row3{
+    width:100%;
+    height: 13px;
+    line-height: 14px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.entry-author{
+    color:#4eafc0;
+    font-weight:600;
+}
+.entry-subscription-status{
+    color:#6e9721;
+    font-weight:600;
+}
+
+.topic-box{
+    color:#4eafc0;
+    font-weight:600;
+}
+  
 .footer-wrapper{
     background-color:#727272;
     height: 45px;
