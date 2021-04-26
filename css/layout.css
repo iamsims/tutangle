@@ -102,7 +102,7 @@
 }
 
 
-.left.search li a:last-child img{
+.left.search li a img{
 	float: right;
 	padding: 12px;
 }

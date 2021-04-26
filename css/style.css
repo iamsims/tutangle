@@ -40,7 +40,7 @@
     clear: both;
 }
 
-.nav-item:first-child::before {
+.nav-item:first-child:before {
     content: none;
   }
 
@@ -94,8 +94,6 @@
     height: 604px;
     margin-left: auto;
     margin-right: auto;
-    align-self: center;
-   
 }
 
 .friendReq{
@@ -366,7 +364,7 @@ a{
     padding: 0px 4px 0px 4px;
   }
 
-  .left-footer .item:first-child::before {
+  .left-footer .item:first-child:before {
     content: none;
   }
 
