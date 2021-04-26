@@ -53,11 +53,19 @@
 
 }
 
-.searchButton .a{
-	margin:  0px 0px 0px 3px;
-    float:right;
+.searchButton{
+    float: right;
     height: 100%;
+    margin: 0px 0px 0px 0px;
+    width:52px;
     background-image: url("../images/search-btn-bg.png");
+    text-align:center;
+    vertical-align: middle;
+}
+
+.searchButton a{
+    color:white;
+    font-size: 10px;
 }
 
 
