@@ -17,6 +17,13 @@
 	font-size: 11px;
 }
 
+.search-button-text{
+    height:100%;
+    float: left;
+    width:10px;
+    font-size: 8px;
+}
+
 
 .options{
     height:50%;
@@ -199,7 +206,11 @@ a{
 
 
 .AllEntries .name{
-    background-image: url("../images/left-entriename.png");
+    background-color: #f5f5f5;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    color:#777777;
 }
 
 .AllEntries .outer{
@@ -260,7 +271,12 @@ a{
 }
 
 .Subscribed .name{
-    background-image: url("../images/right-entriename.png");
+    background-color: #f5f5f5;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    color:#777777;
+
 }
 
 

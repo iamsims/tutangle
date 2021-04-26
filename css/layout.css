@@ -35,8 +35,13 @@
     width: 100%;
 }
 
+.all-entries-top{
+    height:12px;
+    width: 100%;
+}
+
 .nav-separation .name{
-    height:36px;
+    height:24px;
     width:100%
 }
 
@@ -48,12 +53,13 @@
 
 }
 
-
-.searchButton a{
+.searchButton .a{
 	margin:  0px 0px 0px 3px;
-	display: block;
     float:right;
+    height: 100%;
+    background-image: url("../images/search-btn-bg.png");
 }
+
 
 .logo{
     float: left;
@@ -65,11 +71,10 @@
     bottom:15px;*/
     height:49px;
     width:148px;
-    float: right;
-    
+    float: right;    
 }
 
-.name{
+.usr-name{
     height:50%;
     width:100%;
     font-size: 15px;
@@ -80,13 +85,11 @@
     float:right;
 }
 
-
 .lower-header-container{
     height: 100%;
     width: auto;
     padding: 0px 3% 0px 0.9%;
 }
-
 
 .lower-left{
     float:left;
@@ -94,19 +97,16 @@
     height: 100%;
 }
 
-
 .left.search li a:first-child{
 	float: left;
 	width: 137px;
 	padding: 12px 8.5px;
 }
 
-
 .left.search li a img{
 	float: right;
 	padding: 12px;
 }
-
 
 .navArea{
     height: 66px;
@@ -114,15 +114,11 @@
     position : relative;
    }
 
-
-
 .profile-pic{
     width:70px;
     height:100%;
     float: left;
 }
-
-
 
 .entry-info{
     width: 448px;
@@ -130,8 +126,6 @@
     float: right;
     padding: 0px 10px 0px 10px;
 }
-
-
 
 .footer-container{
     padding:0px 33px 0px 33px;
